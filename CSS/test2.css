@@ -1,0 +1,387 @@
+h2
+{
+    color: white;
+    margin-left: 30px;
+    position: relative;
+    font-family: 'Oswald';
+}
+body
+{
+    padding: 0%;
+    margin: 0%;
+}
+.News
+{
+    margin-bottom: 30px;
+}
+.first_div
+{
+    height: 200px;
+    background-color: #b3b3b3;
+    color: white;
+}
+.float-container
+{
+    
+    padding: 20px 0px 20px 30px;
+}
+.float-child
+{
+    width: 20%;
+    height: 400px;
+    float: left;
+    
+    
+}
+.float-child_2
+{
+    width: 80%;
+    height: 1300px;
+    float: left;
+    padding-top: 10px;
+    padding: 20px 0px 20px 20px;
+    
+}
+
+.hr
+{
+    margin: 10px;   
+}
+a
+{
+    font-size: 1.4rem;
+    margin-left: 0px;
+    color: black;
+}
+i
+{
+    font-size: 1.7rem;
+}
+.container-fluid input[type=text] {
+    float: right;
+    padding: 6px;
+    border: 3px round black;
+    margin-top: 8px;
+    margin-right: 8px;
+    font-size: 17px;
+  }
+.btn
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#first_icon
+{
+    margin-left: 250px;
+}
+.nav_links
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald';
+    margin-left: 20px;
+}
+.nav_links_2
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald';
+    margin-left: 20px;
+}
+.nav_links:hover
+{
+    color: #808080;
+}
+.nav_links_2:hover
+{
+    color: #808080;
+}
+.logo
+{
+    position: relative;
+    width: 250px;
+    height: 80px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.description
+{
+    margin-left: 30px;
+}
+.sneaker_img
+{
+    margin-bottom: 7px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+.Sneakerek_first
+{
+    height: 50px;
+    width: 170px;
+    margin-left: 30px;
+    border: 0px;
+    text-align: left;
+}
+.Sneakerek
+{
+    height: 50px;
+    width: 170px;
+    margin-left: 20px;
+    border: 0px;
+    text-align: left;
+}
+.Fentartható
+{
+    height: 50px;
+    width: 240px;
+    margin-left: 20px;
+    border: 0px;
+    text-align: left;
+}
+.Sport
+{
+    height: 50px;
+    width: 130px;
+    margin-left: 20px;
+    border: 0px;
+    text-align: left;
+}
+.Csizma
+{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    border: 0px;
+    text-align: left;
+}
+.Márkák
+{
+    height: 50px;
+    width: 236px;
+    border: 0px;
+    text-align: left;
+    margin-right: 0%;
+    background-color: white;
+}
+#Fentartható
+{
+    margin-left: 10px;
+}
+span
+{
+    font-family: 'Oswald';
+    line-height: 45px;
+    font-size: 1.4rem;
+}
+.down_arrow
+{
+    margin-left: 140px;
+}
+.down_arrow_2
+{
+    margin-left: 153px;
+}
+.down_arrow_3
+{
+    margin-left: 167px;
+}
+.down_arrow_4
+{
+    margin-left: 113px;
+}
+.down_arrow_5
+{
+    margin-left: 151px;
+}
+.card
+{
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.card-img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card-body
+{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    color: #fff;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.5s;
+}
+.card:hover .card-body
+{
+    right: 0;
+}
+.card-title
+{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.card-sub-title
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-left: 12px;
+    text-align: left;
+}
+.card-info
+  {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+  }
+.size:hover
+{
+    color: gray;
+}
+.size_2:hover
+{
+  color: gray;
+}  
+.card-btn
+{
+    color: #1f3d47;
+    background-color: #8fabba;
+    width: 140px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.size
+{
+    position: relative;
+    margin-left: 0px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.size_2
+{
+    position: relative;
+    margin-left: 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.col
+{
+    padding: 0;
+}
+.row
+{
+    padding: 0;
+    margin-right: 0px;
+}
+
+.wrapper .carousel
+{
+  white-space: nowrap;
+  font-size: 0px;
+  overflow: hidden;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+.carousel .dragging
+{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel .dragging img
+{
+  pointer-events: none;
+}
+.népszerű
+{
+    top: 20px;
+}
+.wrapper
+{
+  max-width: 100%;
+  height: 400px;
+  background-color: #e6e6e6;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.carousel img
+{
+  height: 220px;
+  object-fit: cover;
+  width: 220px;
+  margin-left: 14px;
+  margin-top: 40px;
+}
+.carousel img:first-child
+{
+  margin-left: 14px;
+}
+.wrapper i{
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  text-align: center;
+  line-height: 46px;
+  position: absolute;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transform: translateY(-50%);
+  z-index: 100;
+ 
+}
+.wrapper i:first-child
+{
+  left: 0px;
+  display: none;
+}
+.wrapper i:last-child
+{
+  right: 0px;
+  
+}
+.test
+{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+
+
